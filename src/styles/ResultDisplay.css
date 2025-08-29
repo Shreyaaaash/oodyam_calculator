@@ -1,13 +1,15 @@
 .result-container {
   margin-top: 2rem;
   padding-top: 2rem;
-  border-top: 2px solid #e1e8ed;
+  border-top: 2px solid #C8E6C9;
+  font-family: 'Poppins', sans-serif;
 }
 
 .result-title {
-  color: #2c3e50;
+  color: #2E7D32;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .result-content {
@@ -17,7 +19,7 @@
 }
 
 .result-summary {
-  background: #f8f9fa;
+  background: #F1F8E9;
   border-radius: 8px;
   padding: 1.5rem;
 }
@@ -25,25 +27,26 @@
 .result-table {
   width: 100%;
   border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
 }
 
 .result-table th,
 .result-table td {
   padding: 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #C8E6C9;
 }
 
 .result-table th {
   font-weight: 600;
-  color: #2c3e50;
+  color: #2E7D32;
   width: 40%;
 }
 
 .result-table tr.highlight th,
 .result-table tr.highlight td {
   font-weight: bold;
-  color: #2c5aa0;
+  color: #1B5E20;
   font-size: 1.1rem;
   border-bottom: none;
 }
@@ -53,12 +56,14 @@
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
 }
 
 .calculation-details h4 {
-  color: #2c3e50;
+  color: #2E7D32;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .details-grid {
@@ -71,28 +76,29 @@
   display: flex;
   justify-content: space-between;
   padding: 0.75rem;
-  background: #f8f9fa;
+  background: #F1F8E9;
   border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .detail-label {
   font-weight: 500;
-  color: #2c3e50;
+  color: #2E7D32;
 }
 
 .detail-value {
   font-weight: 600;
-  color: #2c3e50;
+  color: #2E7D32;
 }
 
 .detail-item.highlight {
-  background: #e3f2fd;
-  border-left: 4px solid #2196f3;
+  background: #E8F5E9;
+  border-left: 4px solid #4CAF50;
 }
 
 .detail-item.highlight .detail-label,
 .detail-item.highlight .detail-value {
-  color: #1565c0;
+  color: #1B5E20;
   font-size: 1.1rem;
 }
 

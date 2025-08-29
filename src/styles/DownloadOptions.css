@@ -3,12 +3,14 @@
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
 }
 
 .download-options h4 {
-  color: #2c3e50;
+  color: #2E7D32;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .button-group {
@@ -26,35 +28,36 @@
   transition: all 0.2s ease;
   flex: 1;
   min-width: 120px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .csv-button {
-  background: #27ae60;
+  background: #388E3C;
   color: white;
 }
 
 .csv-button:hover {
-  background: #219a52;
+  background: #2E7D32;
   transform: translateY(-1px);
 }
 
 .excel-button {
-  background: #2ecc71;
+  background: #4CAF50;
   color: white;
 }
 
 .excel-button:hover {
-  background: #27ae60;
+  background: #388E3C;
   transform: translateY(-1px);
 }
 
 .print-button {
-  background: #3498db;
+  background: #66BB6A;
   color: white;
 }
 
 .print-button:hover {
-  background: #2980b9;
+  background: #4CAF50;
   transform: translateY(-1px);
 }
 
