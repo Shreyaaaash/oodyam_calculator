@@ -1,4 +1,6 @@
-.calculator-form-container {
+
+
+ .calculator-form-container {
   width: 100%;
   font-family: 'Poppins', sans-serif;
 }
@@ -88,6 +90,21 @@
   border-left: 4px solid #2dc628;
   font-family: 'Poppins', sans-serif;
 }
+.form-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #F1F8E9;
+  border-radius: 8px;
+}
+
+.form-section h3 {
+  color: #2E7D32;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #C8E6C9;
+  padding-bottom: 0.5rem;
+}
 
 @media (max-width: 768px) {
   .form-row {
@@ -102,4 +119,4 @@
     padding: 0.875rem 1.5rem;
     font-size: 1rem;
   }
-}
+} 
